@@ -10,3 +10,7 @@ kind of similar to Laravel in some cases, such as, the way you router pages.
 
 Using this framework I did a simple navigation using the router system and a way to add some usernames and list them. Also the docker with the migrations already
 take care of that and creates the database with the table and the columns.
+
+# Run
+
+To run the project simply run docker-compose up and access it on localhost:8080
