@@ -14,14 +14,3 @@ take care of that and creates the database with the table and the columns.
 # Run
 
 To run the project simply run docker-compose up and access it on localhost:8080
-
-Also create a .htaccess file and paste the following code:
-
-```RewriteEngine On
-RewriteCond %{REQUEST_FILENAME} !-d
-RewriteRule ^(.*)/$   /$1 [L,R=301]
-RewriteCond %{REQUEST_FILENAME} !-f
-RewriteCond %{REQUEST_FILENAME} !-d
-RewriteRule ^(.*)$ index.php?p=$1 [L,QSA]
-```
-
